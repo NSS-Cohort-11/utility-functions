@@ -49,4 +49,18 @@ describe('utility functions', function () {
       expect(range(4, 9)).to.eql([4,5,6,7,8]);
     });
   });
+
+  describe('rangeObj', function () {
+    var rangeObj = require('../rangeObj');
+
+    it('should return an object', function () {
+      expect(rangeObj()).to.be.an.object;
+    });
+
+    it('should return an object range', function () {
+      expect(rangeObj()).to.eql({});
+      expect(rangeObj(3)).to.eql({0:0, 1:1, 2:2});
+      expect(rangeObj(5)).to.eql({0:0, 1:1, 2:2, 3:3, 4:4});
+    });
+  });
 });
