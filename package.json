@@ -1,0 +1,19 @@
+{
+  "name": "utility-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sscotth/utility-functions.git"
+  },
+  "author": "Scott Humphries <npm@sscotth.io> (https://sscotth.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sscotth/utility-functions/issues"
+  },
+  "homepage": "https://github.com/sscotth/utility-functions#readme"
+}
